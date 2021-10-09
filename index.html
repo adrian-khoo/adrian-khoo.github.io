@@ -19,8 +19,6 @@ title: Home
     {% endfor %}
     {% endif %}
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.content | strip_html | truncatewords: 50 }}
 
   </div>
