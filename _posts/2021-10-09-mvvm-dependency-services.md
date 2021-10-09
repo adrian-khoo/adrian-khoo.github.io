@@ -4,7 +4,7 @@ title: Xamarin Forms (MVVM) Dependency Services
 
 In this example, we will use dependency injection to implement a service object for UI navigation from the view model. This allows view models to invoke shared functionality.
 
-1. The interface. The interface provides the registration to reference the NavigationService object.
+The interface. The interface provides the registration to reference the NavigationService object.
 
 Code
 ----
@@ -17,7 +17,7 @@ public interface INavigationService
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2. Implement the interface.
+Implement the interface.
 
 Code
 ----
@@ -37,7 +37,7 @@ class NavigationService : INavigationService
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. First of all, register the dependency service from the main App().
+First of all, register the dependency service from the main App().
 
 Code
 ----

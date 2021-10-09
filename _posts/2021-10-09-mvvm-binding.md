@@ -4,7 +4,7 @@ title: Xamarin Forms (MVVM) ViewModel Binding
 
 This example shows the process to bind a view to an external view model.
 
-1. Binding the view to an view model.
+Binding the view to an view model.
 
 Code
 ----
@@ -17,7 +17,7 @@ public MainPage()
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2. How do i pass the call to the view model when the page is visible?
+How do i pass the call to the view model when the page is visible?
 
 Code
 ----
@@ -33,7 +33,7 @@ protected override void OnAppearing()
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. Implementing the View Model based on BaseViewModel
+Implementing the View Model based on BaseViewModel
 
 Code
 ----
