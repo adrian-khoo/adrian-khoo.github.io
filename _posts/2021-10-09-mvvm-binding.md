@@ -9,8 +9,6 @@ This example shows the process to bind a view to an external view model.
 Code
 ----
 
-Inline `code` gets monospaced font.
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c#
 public MainPage()
 {
@@ -24,8 +22,6 @@ public MainPage()
 Code
 ----
 
-Inline `code` gets monospaced font.
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c#
 protected override void OnAppearing()
 {
@@ -34,5 +30,25 @@ protected override void OnAppearing()
     if (bindingContext != null)
         bindingContext.OnAppearing();
 
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. Implementing the View Model based on BaseViewModel
+
+Code
+----
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c#
+class FulfilmentViewModel: BaseViewModel
+{
+    public FulfilmentViewModel()
+    {
+        Title = "Welcome";
+    }
+
+    public void OnAppearing()
+    {
+        
+    }
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
