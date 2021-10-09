@@ -1,5 +1,7 @@
 ---
 title: Xamarin Forms (MVVM) ViewModel Binding
+category: Xamarin
+tags: [xamarin, mvvm]
 ---
 
 This example shows the process to bind a view to an external view model.

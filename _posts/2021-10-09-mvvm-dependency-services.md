@@ -1,5 +1,7 @@
 ---
 title: Xamarin Forms (MVVM) Dependency Services
+category: Xamarin
+tags: [xamarin, mvvm]
 ---
 
 In this example, we will use dependency injection to implement a service object for UI navigation from the view model. This allows view models to invoke shared functionality.
