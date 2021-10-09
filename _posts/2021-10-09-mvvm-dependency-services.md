@@ -53,7 +53,7 @@ public App()
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-4. From the view model, resolve the dependency service, and invoke them.
+From the view model, resolve the dependency service, and invoke them.
 
 Code
 ----
