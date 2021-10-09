@@ -1,5 +1,5 @@
 ---
-title: Xamarin Forms (MVVM) Dependency Services
+title: Xamarin Forms Tools
 category: Xamarin
 tags: [xamarin, code]
 ---
